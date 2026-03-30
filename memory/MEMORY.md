@@ -14,13 +14,32 @@
 - 账号：0706678981420100397410
 
 ## 主要客户
-公司：ASH SHAKUR CRAFTS LTD.
+
+### 客户1：ASH SHAKUR CRAFTS LTD.
 地址：01, DAULATPUR, NATIONAL UNIVERSITY, GAZIPUR-1704, BANGLADESH
 BIN：001202936-0103
 国家：BANGLADESH
 装卸港：Any port, Bangladesh
 支付方式：120 Days LC（120天信用证）
 联系人：Akter（akter@evesourcing.com）、Nidhan助理（nidhan@evesourcing.com）
+主要产品：Pinhole Mesh（针织网眼布）
+
+### 客户2：CROSSWEAR INDUSTRIES LTD.
+（根据PI数据分析）
+国家：待确认（可能为南美或欧洲客户，使用西班牙语颜色名称）
+产品特点：
+- 主要采购针织网眼布、平纹布
+- 使用公斤(kg)作为计量单位
+- 价格单位：USD/kg
+- 有附加费机制（特殊颜色150 USD）
+- 颜色系统：数字代码+英文/西班牙语名称
+- PI编号格式：B3-26002（B3系列，2026年第002号）
+主要产品系列：
+1. 网眼布类：BIREDS EYE MESH、LINE MESH、SQUARE MESH
+2. 平纹布类：INTERLOCK
+3. 经编布类：WARP KNT PLAIN FBRIC
+4. 梭织布类：WOVEN FABRIC
+5. 辅料类：flat collar、elastic band
 
 ## 主要产品
 Pinhole Mesh（针织网眼布）
