@@ -1,0 +1,57 @@
+# OpenClaw记忆同步忽略文件
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 缓存文件
+.cache/
+node_modules/
+*.pyc
+__pycache__/
+
+# 敏感信息（根据实际情况调整）
+# secrets/
+# *.key
+# *.pem
+# *.cert
+
+# 大文件
+*.zip
+*.tar
+*.gz
+*.7z
+
+# 编辑器文件
+.vscode/
+.idea/
+*.code-workspace
+
+# 系统文件
+.system/
+.openclaw/cache/
+.openclaw/tmp/
+
+# 特定技能的大文件（如果有）
+skills/*/node_modules/
+skills/*/.cache/
+
+# 但保留重要的记忆文件
+!memory/
+!MEMORY.md
+!AGENTS.md
+!SOUL.md
+!USER.md
+!TOOLS.md
+!HEARTBEAT.md
+!IDENTITY.md
+!MEMORY_SYNC_GUIDE.md
