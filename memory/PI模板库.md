@@ -33,7 +33,103 @@ SWIFT: CITIUS33XXX
 
 ## 二、PI模板格式
 
-### 模板1：标准针织布PI
+### 模板1：实际业务PI（基于真实数据）
+```
+PROFORMA INVOICE
+
+No.: B3-26002
+Date: 14th March 2026
+Place: Suzhou, China
+
+SELLER: LUSA TEXTILE (SUZHOU) CO., LTD
+BUYER: CROSSWEAR INDUSTRIES LTD.
+
+PRODUCT DETAILS:
+--------------------------------------------------------------------
+ART NO. | FABRIC DESCRIPTION       | HS CODE    | COLOR
+--------------------------------------------------------------------
+75-09 & | BIREDS EYE MESH          | 6006320000 | 01 WHITE
+75-09N, | 100% Polyester           |            | 
+126/23, | Weight: 135-140 gsm      |            |
+184/17  | Width: 66" - 68"         |            |
+--------------------------------------------------------------------
+        | Qty: 575.0 kg            |            |
+        | Unit Price: 2.55 USD/kg  |            |
+        | Surcharge: 0.0 USD       |            |
+        | Total: 1466.25 USD       |            |
+--------------------------------------------------------------------
+
+[继续列出其他产品条目...]
+
+GRAND TOTAL: [总金额] USD
+
+PAYMENT TERMS: [付款方式]
+SHIPMENT: [装运条款]
+DESTINATION: [目的港]
+
+REMARKS:
+1. All measurements are subject to ±3% tolerance
+2. Colors may have slight variation from standard
+
+FOR AND ON BEHALF OF
+LUSA TEXTILE (SUZHOU) CO., LTD
+_________________________
+Authorized Signature
+```
+
+### 模板2：公斤计价格式PI
+```
+PROFORMA INVOICE
+
+No.: [编号，如B3-26002]
+Date: [日期，如14th March 2026]
+Place: Suzhou, China
+
+SELLER: LUSA TEXTILE (SUZHOU) CO., LTD
+BUYER: [客户公司名称]
+
+PRODUCT LIST:
+--------------------------------------------------------------------
+ART NO.     | FABRIC DESCRIPTION     | HS CODE    | COLOR
+--------------------------------------------------------------------
+[款号]     | [面料名称]            | [HS编码]  | [颜色代码+名称]
+            | [成分，如100% Polyester] |            |
+            | Weight: [克重] gsm     |            |
+            | Width: [门幅] inches   |            |
+--------------------------------------------------------------------
+            | Qty: [数量] kg         |            |
+            | Unit Price: [单价] USD/kg |          |
+            | Surcharge: [附加费] USD |           |
+            | Total: [总金额] USD    |            |
+--------------------------------------------------------------------
+[继续其他产品...]
+
+SUMMARY:
+Total Quantity: [总数量] kg
+Total Amount: [总金额] USD
+Total Surcharge: [总附加费] USD
+Grand Total: [最终总额] USD
+
+PAYMENT: [付款方式，如30% deposit, 70% against B/L copy]
+SHIPMENT: [装运条款，如Within 30 days after receipt of deposit]
+DESTINATION: [目的港]
+TERMS: [贸易术语，如FOB Shanghai]
+
+PACKING: Standard export packing
+VALIDITY: This PI is valid for 15 days
+
+REMARKS:
+1. Quantity tolerance ±3%
+2. Surcharge applies for special colors
+3. HS code as per actual product
+
+FOR AND ON BEHALF OF
+LUSA TEXTILE (SUZHOU) CO., LTD
+_________________________
+Authorized Signature
+```
+
+### 模板3：标准针织布PI
 ```
 PROFORMA INVOICE
 
